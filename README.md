@@ -1,2 +1,4 @@
 # NSSetUncaughtExceptionHandlerTest
 iOS 获取日志
+通过IOS SDK中提供了一个现成的函数 NSSetUncaughtExceptionHandler 用来做异常处理 
+利用NSSetUncaughtExceptionHandler，当程序异常退出的时候，可以先进行处理，然后做一些自定义的动作,并通知开发者，是大多数软件都选择的方法。
